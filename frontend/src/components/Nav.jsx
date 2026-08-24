@@ -26,7 +26,7 @@ export default function Nav() {
       <Link to="/" className="brand">Last-Mile Tracker</Link>
       <div className="nav-right">
         <button onClick={toggleTheme} className="theme-toggle">
-          {theme === 'waybill' ? 'Slate mode' : 'Waybill mode'}
+          {theme === 'waybill' ? 'Dark Mode' : 'Light Mode'}
         </button>
         {user && (
           <>
