@@ -3,6 +3,14 @@
 A full-stack delivery management platform — customers place orders with
 auto-calculated charges, admins manage zones/pricing/agents, agents update
 delivery status, and everyone can track an order's full history.
+## Live Deployment
+
+- **App**: https://lastmile-delivery-tracker-beta.vercel.app
+- **Backend API**: https://lastmile-delivery-tracker-production-c94b.up.railway.app
+- Frontend deployed on Vercel, backend + MySQL deployed on Railway.
+
+Test accounts (feel free to register your own customer account, or use):
+- **Admin**: admin@test.com / adminpass123
 
 - **Backend**: see `backend/README.md` for setup, API docs, schema, and an
   explanation of the rate calculation engine and auto-assignment logic.
